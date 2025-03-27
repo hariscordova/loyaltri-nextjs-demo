@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sanity-deploy": "sanity deploy"
   },
   "dependencies": {
     "@sanity/icons": "^3.7.0",
@@ -20,6 +21,7 @@
     "styled-components": "^6.1.16"
   },
   "devDependencies": {
+    "@sanity/cli": "^3.81.0",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
   }
